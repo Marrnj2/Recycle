@@ -1,6 +1,6 @@
 /* Global*/ 
 body {
-    background: #8FD8D8;
+
 }
 main {
     background: white;
@@ -23,35 +23,11 @@ header,footer {
 
 }
 
-
-/* Idex Styles*/ 
-.index-lead {
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding: 1%;
+}
+td {
     text-align: center;
-    width: 20%;
-}
-.index-content {
-    display: grid;
-    grid-template-columns: (1fr, 1fr);
-    grid-template-areas: "top-left top-right"
-                          "middle-left middle-right"
-                          "bottom-left bottom-right"
-}
-.content-block1 {
-    grid-area: top-left;
-}
-.content-image1 {
-    grid-area: top-right;
-}
-.content-block2 {
-    grid-area: middle-right;
-}
-.content-image2 {
-
-    grid-area: middle-left;
-}
-.content-block3 {
-    grid-area: bottom-left;
-}
-.content-image3 {
-    grid-area: bottom-right;
 }

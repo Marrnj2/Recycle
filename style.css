@@ -1,17 +1,24 @@
 /* Global*/ 
 body {
-
+    margin-top: 0px;
+    background-color:  	#E0E0E0;
 }
 main {
-    background: white;
+    
     width: 80%;
     margin: auto;
+    background-color: #F8F8F8;
 }
 /* Navigation*/ 
 nav {
     display: flex;
+    background-color: #C8C8C8;
+    
 }
-
+.button:hover {
+    background-color: #D0D0D0;
+    text-decoration: underline;
+}
 /* Header*/ 
 .title{
     text-align: center;
@@ -27,10 +34,35 @@ table, th, td {
     border: 1px solid black;
     border-collapse: collapse;
     padding: 1%;
+ 
+}
+table {
+    width: 70%;
+}
+th {
+    height: 5%;
 }
 td {
     text-align: center;
 }
 img {
     width: 20%;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+header {
+    background-color: #E8E8E8;
+    padding: 1%;
+}
+.button {
+    padding: 0.5%;
+}
+
+.recycle-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
 }

@@ -2,12 +2,14 @@
 body {
     margin-top: 0px;
     background-color:  	#E0E0E0;
+
 }
 main {
     
     width: 80%;
     margin: auto;
     background-color: #F8F8F8;
+    font-size: 16px;
 }
 /* Navigation*/ 
 nav {
@@ -61,8 +63,48 @@ header {
 .button {
     padding: 0.5%;
 }
-
-.recycle-container {
+ul {
+    list-style-type: none;
+}
+.unrecycleables {
+    list-style-type: none;
+}
+.unrecycleables-item {
+    margin: 1%;
+}
+.hazzard {
+    margin: 1%;
+}
+.redbin-container{
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-areas: " top1 top2 top3 top44"
+                         "intro1 intro2 intro3 intro4"
+                         "content1 content2 content3 content4";
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    border: solid red 1px;
+    margin-top: 3%;
+}
+.leadbox1{
+    grid-area: intro1;
+    max-width: 40%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.redbin-intro {
+    grid-area: top1;
+    margin-top: -30px;
+    background-color: red;
+    color: black;
+    max-width: 50%;
+    max-height: 18%;
 }

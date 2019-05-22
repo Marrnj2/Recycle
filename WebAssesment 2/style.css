@@ -1,0 +1,96 @@
+body,html{
+    height: 100%;
+    margin: 0;
+    padding: 0;
+
+}
+
+.parallax{
+    background-image: url("vista.jpg");
+    height: 50%;
+    background-attachment: fixed;
+    background-position: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+nav{
+    display: flex;
+    background-color: #36454f;
+    justify-content: center;
+}
+.button {
+    padding: 2%;
+    color: white;
+    text-decoration: none;
+}
+.button:hover{
+    background-color: #364b4f;
+    text-decoration: underline;
+}
+header{
+    text-align: center;
+}
+main {
+    width: 60%;
+    margin: auto;
+    background-color: azure;
+    padding: 0;
+}
+.Recycle-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+ul{
+    list-style: none;
+}
+.Recycle-do, .Recycle-dont {
+    padding: 2%;
+}
+.Recycle-do{
+
+    margin-right: 40%;
+}
+.Recycle-dont{
+
+    margin-right: 45%;
+}
+ul{
+    font-size: 20px;
+    line-height:200%;
+}
+.dont-blue,.dont-yellow{
+    font-size: 18px;
+}
+.can-yellow{
+    margin-bottom: 27%;
+}
+table{
+    width: 70%;
+    margin: auto;
+    border-collapse: collapse;
+}
+th{
+    background-color: #36454f;
+    color: white;
+ 
+
+}
+td{
+    padding-right: 1%;
+    height: 50px;
+
+}
+tr:nth-child(even){
+background-color: lightgray;
+}
+.landfill-title{
+    text-align: center;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+.table-title{
+    margin-left: 15%;
+}

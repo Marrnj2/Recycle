@@ -3,34 +3,62 @@
 
 <head>
     <meta charset="UTF-8">
-    <link rel="stylesheet" href="style.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
 </head>
 
 <body>
-    <main>
+    <div class="parallax">
+        <main>
             <header>
-                    <h1 class="title">Recycling in Otago</h1>
-                </header>
-        <nav>
-            <a class="button" href="index.html">Index</a>
-            <a class="button" href="waste-reduction.html">Reduce your footprint</a>
-            <a class="button" href="Landfill.html">Landfills</a>
-            <a class="button" href="Recycle.html">Recycle</a>
-            <a class="button" href="E-Waste.html">E-Waste</a>
-            <a class="button" href="Quiz.html">Quiz</a>
-        </nav>
-        <form>
-            <fieldset>
-                <legend>Question 1</legend>
-                Yellow bins accept soft plastics.<br>
-                <input type="radio" name="bin" value="Yes"><label for="yes">Yes</label>
-                <input type="radio" name="bin" value="No"><label for="no">No</label>
-            </fieldset>
-        </form>
-    </main>
+                <h1>Green Otago</h1>
+            </header>
+            <nav>
+                <a class="button" href="index.html">Index</a>
+                <a class="button" href="Recycle.html">Recycle</a>
+                <a class="button" href="Reduce.html">Reduce </a>
+                <a class="button" href="E-Waste.html">E-Waste</a>
+                <a class="button" href="Landfill.html">Landfills</a>
+                <a class="button" href="Quiz.html">Quiz</a>
+            </nav>
+            <form action="">
+                <fieldset>
+                    Can you recycle broken glass? <br>
+                    <input type="radio" name="glass" id="" value="yes"> Yes <br>
+                    <input type="radio" name="glass" id="" value="no"> No
+                </fieldset>
+                <fieldset>
+                    Which of these will reduce your impact on the enviroment <br>
+                    <input type="checkbox" name="recycle" id="" value="DriveFast">Driving Faster to save petrol<br>
+                    <input type="checkbox" name="recycle" id="" value="Waterless">Brushing your teath without the water
+                    running<br>
+                    <input type="checkbox" name="recycle" id="" value="EatingOut">Eating out more to save on dishes<br>
+                    <input type="checkbox" name="recycle" id="" value="SwitchOff">Switching off your Tv at the wall<br>
+                </fieldset>
+                <fieldset>
+                    Which of these lanfills can recycle E-waste
+                </fieldset>
+                <fieldset>
+                    <select name="landfill">
+                        <option value="MtCooee">Palmerston Landiill</option>
+                        <option value="Envirowaste">Envirowaste</option>
+                        <option value="fiat">Ranfurly Transfer Station</option>
+                        <option value="WasteBusters">WasteBusters Wanaka</option>
+                    </select><br>
+                    <br>
+                </fieldset>
+                <input type="submit" value="Submit">
+            </form>
+            <footer>
+                <script>
+                    var date = document.lastModified;
+                    document.write("Last Modified: " + date);
+                </script>
+            </footer>
+        </main>
+    </div>
 </body>
 
 </html>

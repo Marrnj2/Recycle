@@ -1,13 +1,14 @@
 body,html{
     height: 100%;
-    margin: 0;
+    margin: 0 0;
     padding: 0;
-
+    font-family: sans-serif;
 }
 
 .parallax{
+    margin-top: 0;
     background-image: url("vista.jpg");
-    height: 50%;
+    height: 150%;
     background-attachment: fixed;
     background-position: fixed;
     background-repeat: no-repeat;
@@ -29,13 +30,16 @@ nav{
     text-decoration: underline;
 }
 header{
-    text-align: center;
+    text-align: center; 
+}
+h1{
+    margin: 0 0;
 }
 main {
     width: 60%;
     margin: auto;
     background-color: azure;
-    padding: 0;
+    padding: 2%;
 }
 .Recycle-container {
     display: grid;
@@ -49,11 +53,11 @@ ul{
 }
 .Recycle-do{
 
-    margin-right: 40%;
+    margin-right: 20%;
 }
 .Recycle-dont{
 
-    margin-right: 45%;
+    margin-right: 20%;
 }
 ul{
     font-size: 20px;
@@ -73,8 +77,6 @@ table{
 th{
     background-color: #36454f;
     color: white;
- 
-
 }
 td{
     padding-right: 1%;
@@ -93,4 +95,11 @@ a{
 }
 .table-title{
     margin-left: 15%;
+}
+.recycle-lead{
+    text-align: center;
+    font-family: Georgia;
+}
+img{
+    width: 20%;
 }
